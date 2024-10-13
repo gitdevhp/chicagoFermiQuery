@@ -8,6 +8,8 @@ physical_sciences_students = int(0.21 * total_students)
 biological_sciences_students = int(0.18 * total_students)
 social_sciences_students = int(0.23 * total_students)
 professional_students = int(0.18 * total_students)
+
+# other_students should not be needed...
 others_students = total_students - (humanities_students + physical_sciences_students + 
                                     biological_sciences_students + social_sciences_students + 
                                     professional_students)
